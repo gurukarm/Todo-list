@@ -1,0 +1,419 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.upper-container{
+    width: 40%;
+    height: 10%;
+    margin: 50px auto;
+    position: relative;
+}
+    .upper-container1{
+    width: 40%;
+    height: 100%;
+    padding-top: 20px;
+}
+#tasks{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+#lists{
+     font-weight:3.5rem;
+     margin-left: 10px;
+     opacity: 0.5;
+     font-size: 35px;
+
+}
+ .upper-container2{
+     width:30%;
+     height: 100%;
+     padding-top: 25px;
+     top: 0px;
+     right: 0px;
+     position: absolute;
+
+
+ }
+
+#addlist{
+    position:absolute;
+    width: 80%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    font-size: 35px;
+    opacity: 0.5;
+    padding-top: 25px;
+    font-weight: 3.5rem;
+
+}
+.card1{
+    margin-top: 10px;
+    border: 1.5px solid green;
+    height: 45vh;
+    width: 25%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px gray;
+
+}
+
+.div1{
+position: absolute;
+top: 15px;
+font-size: 25px;
+width: 85%;
+text-align: center;
+height: 15%;
+color: darkgreen;
+border-bottom: 1px solid green;
+}
+.div2{
+width: 90%;
+height: 10%;
+font-size: 20px;
+color: aqua;
+text-align: right;
+position: absolute;
+top: 35%;
+font-weight: bold;
+text-decoration: line-through;
+
+}
+
+.div3{
+width: 90%;
+height: 10%;
+position: absolute;
+top: 52%;
+text-align: left;
+font-size: 25px;
+}
+#check{
+size: 30px;
+}
+
+
+.card2{
+    margin-top: 10px;
+    border: 1.5px solid green;
+    height: 45vh;
+    width: 25%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.div4{
+position: absolute;
+top: 15px;
+font-size: 25px;
+width: 85%;
+text-align: center;
+height: 15%;
+color: darkgreen;
+border-bottom: 1px solid green;
+}
+.div5{
+width: 50%;
+height: 10%;
+font-size: 20px;
+color: aqua;
+text-align: right;
+position: absolute;
+top: 35%;
+font-weight: bold;
+text-decoration: line-through;
+
+}
+
+.div6{
+width: 90%;
+height: 10%;
+position: absolute;
+top: 52%;
+text-align: left;
+font-size: 25px;
+}
+#check{
+size: 30px;
+}
+
+.card3{
+    margin-top: 10px;
+    border: 1.5px solid green;
+    height: 45vh;
+    width: 25%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.div7{
+position: absolute;
+top: 15px;
+font-size: 25px;
+width: 85%;
+text-align: center;
+height: 15%;
+color: darkgreen;
+border-bottom: 1px solid green;
+}
+.div8{
+width: 50%;
+height: 10%;
+font-size: 20px;
+color: aqua;
+text-align: right;
+position: absolute;
+top: 35%;
+font-weight: bold;
+text-decoration: line-through;
+
+}
+
+.div9{
+width: 90%;
+height: 10%;
+position: absolute;
+top: 52%;
+text-align: left;
+font-size: 25px;
+}
+#check{
+size: 30px;
+}
+.card4{
+    margin-top: 10px;
+    border: 1.5px solid green;
+    height: 45vh;
+    width: 25%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.div10{
+position: absolute;
+top: 15px;
+font-size: 25px;
+width: 85%;
+text-align: center;
+height: 15%;
+color: darkgreen;
+border-bottom: 1px solid green;
+}
+.div11{
+width: 50%;
+height: 10%;
+font-size: 20px;
+color: aqua;
+text-align: right;
+position: absolute;
+top: 35%;
+font-weight: bold;
+text-decoration: line-through;
+
+}
+
+.div12{
+width: 90%;
+height: 10%;
+position: absolute;
+top: 52%;
+text-align: left;
+font-size: 25px;
+}
+#check{
+size: 30px;
+}
+.card5{
+    margin-top: 10px;
+    border: 1.5px solid green;
+    height: 45vh;
+    width: 25%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.div13{
+position: absolute;
+top: 15px;
+font-size: 25px;
+width: 85%;
+text-align: center;
+height: 15%;
+color: darkgreen;
+border-bottom: 1px solid green;
+}
+.div14{
+width: 50%;
+height: 10%;
+font-size: 20px;
+color: aqua;
+text-align: right;
+position: absolute;
+top: 35%;
+font-weight: bold;
+text-decoration: line-through;
+
+}
+
+.div15{
+width: 90%;
+height: 10%;
+position: absolute;
+top: 52%;
+text-align: left;
+font-size: 25px;
+}
+#check{
+size: 30px;
+}
+
+
+.card-container{
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+}
+
+
+
+#check{
+    width: 20px;
+    height: 20px;
+      margin-left: 10px;
+    }
+    .left-arrow{
+        opacity:0.5;
+       margin-top: 5px;
+       margin-right: 15px;
+    }
+
+   @media(max-width:600px){
+
+    .upper-container{
+        width:80%;
+    
+    }
+    #addlist{
+        display: none;
+    }
+    
+    #circle{
+    right:10px;
+    }
+    .upper-container1{
+        width: 80%;
+    
+    }
+    .div2{
+        display: none;
+    }
+    .div3{
+        display: none;
+    }
+    .div5{
+        display: none;
+    }
+    .div6{ display: none;}
+    .div8{display: none;
+    }
+    .div9{display: none;}
+    .div11{display: none;}
+    .div12{display: none;}
+    .div14{display: none;}
+    .div15{display: none;}
+    
+    .div1{
+        border: none;
+        color: gray;
+    }
+    .div4{
+        border: none;
+        color: gray; 
+    }
+    
+    .div7{
+        border: none;
+        color: gray;
+    }
+    .div10{
+        border: none;
+        color: gray;
+    }
+    .div13{
+        border: none;
+        color: gray;
+    }
+    .card1{
+        width: 95%;
+        height: 23vw;
+        margin-top: 30px;
+    }
+    .card2{
+        width: 95%;
+        height: 23vw;
+        margin-top: 30px;
+    }
+    .card3{
+        width: 95%;
+        height: 23vw;
+        margin-top: 30px;
+    }
+    .card4{
+        width: 95%;
+        height: 23vw;
+        margin-top: 30px;
+    
+    }
+    .card5{
+        width: 95%;
+        height: 23vw;
+        margin-top: 30px;
+     
+     }
+    
+
+
+
+    }
+    
+    
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
